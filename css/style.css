@@ -366,6 +366,16 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
+
+.contact-icons {
+  color: #F36921; padding-bottom: 3%;
+}
+.contact-txt {
+  color: #fff; font-weight: 600; padding-left: 2%; font-size: 20px;
+}
+
+
+
 .list-unstyled {
   padding-left: 0;
   list-style: none; }
@@ -8328,6 +8338,27 @@ textarea.form-control {
         .heading {
           font-size: 33px!important;
           padding-bottom: 3%;
+        }
+      }
+      @media (max-width: 330px) {
+        .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+          color: orange;
+        }
+        .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+          color: black;
+        }
+        .heading {
+          font-size: 27px!important;
+          padding-bottom: 3%;
+        }
+        .sub-heading {
+          font-size: 15px!important;
+        }
+        .contact-txt {
+          color: #fff;
+           font-weight: 600;
+            padding-left: 2%;
+            font-size: 14px;
         }
       }
 
