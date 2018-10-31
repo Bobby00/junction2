@@ -8305,7 +8305,7 @@ textarea.form-control {
     background: #fff !important;
     padding: 30px; }
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
       .contact-section .container {
         padding: 70px; }
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
